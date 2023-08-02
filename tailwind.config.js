@@ -10,6 +10,9 @@ export default {
         green:'#00D54B',
         gray:'#B6B6B6',
       },
+      fontWeight: {
+        bolder: '800',
+      },
     },
   },
   plugins: [],
