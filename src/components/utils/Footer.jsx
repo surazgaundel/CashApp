@@ -6,8 +6,8 @@ export default function Footer() {
     <div id='footer' className='flex items-center justify-around w-[96%] m-auto'>
         <div className='flex justify-between w-[50%]'>
             <div className='flex gap-3'>
-            <button className='border-2  border-white rounded-md uppercase font-semibold text-center bg-black text-xs p-2 w-[10rem] tracking-wider'><span className='text-green text-xl px-1 text-base inline-block'><BsApple/></span>App store</button>
-            <button className='border-2 border-white rounded-md uppercase font-semibold bg-black text-xs p-2 w-[10rem] tracking-wider'><span className='text-green text-xl px-1 text-base inline-block'><BsGooglePlay/></span>googleplay</button>
+            <button className='border-2  border-white rounded-md uppercase font-semibold text-center bg-black text-xs p-2 w-[10rem] tracking-wider'><span className='text-green px-1 text-base inline-block'><BsApple/></span>App store</button>
+            <button className='border-2 border-white rounded-md uppercase font-semibold bg-black text-xs p-2 w-[10rem] tracking-wider'><span className='text-green  px-1 text-base inline-block'><BsGooglePlay/></span>googleplay</button>
             </div>
             <div className='text-green text-center text-3xl'>
                 <BsArrowDown/>
