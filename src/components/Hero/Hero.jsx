@@ -18,7 +18,7 @@ export default function Hero() {
             {data.map((list)=>{
               const {id,name}=list;
               return (
-                <li key={id} className='uppercase font-bold text-sm tracking-wider'>{name}</li>
+                <li key={id} className='uppercase z-10 font-bold text-sm tracking-wider'>{name}</li>
               )
             })}
           </div>
@@ -26,18 +26,18 @@ export default function Hero() {
         </div>
         {/* middle section */}
         <div>
-          <div className='flex items-center justify-around relative z-0'>
-            <img src={IntroCube} className='z-10 absolute top-1'alt='intro-cube'/>
-            <img src={IntroStair} className='z-10 absolute top-1'alt='intro-stair'/>
+          <div className='flex items-start justify-between inset-x-40 absolute z-0'>
+            <img src={IntroCube} alt='intro-cube'/>
+            <img src={IntroStair} alt='intro-stair'/>
           </div>
           <div className='flex items-center justify-center h-[80vh]'>
             <h1 className='big-font z-0 top-1/4'>Cash</h1>
             <img src={MobileImage} className='z-10'alt='mobile image'/>
             <h1 className='big-font z-20 bottom-1/3'>app</h1>
           </div>
-          <div className='flex items-center justify-around relative z-0'>
-            <img src={IntroCubes} className='z-10 absolute bottom-3'alt='intro-cubes'/>
-            <img src={IntroPillar} className='z-10 absolute bottom-3'alt='intro-pillar'/>
+          <div className='flex items-start justify-around -start-20 w-full absolute bottom-3 z-0'>
+            <img src={IntroCubes} alt='intro-cubes'/>
+            <img src={IntroPillar} alt='intro-pillar'/>
           </div>
         </div>
 
