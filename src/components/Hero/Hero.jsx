@@ -3,11 +3,11 @@ import Footer from '../utils/Footer';
 import data from './data.js';
 import Logo from '/src/assets/Logo.svg';
 import EyeButton from '/src/assets/eyebutton.svg';
-import MobileImage from '/src/assets/mobileimage.png';
-import IntroCube from '/src/assets/intro-cube.png';
-import IntroStair from '/src/assets/intro-stairs.png';
-import IntroCubes from '/src/assets/intro-cubes.png';
-import IntroPillar from '/src/assets/intro-pillar.png';
+import MobileImage from '/src/assets/Hero/mobileimage.png';
+import IntroCube from '/src/assets/Hero/intro-cube.png';
+import IntroStair from '/src/assets/Hero/intro-stairs.png';
+import IntroCubes from '/src/assets/Hero/intro-cubes.png';
+import IntroPillar from '/src/assets/Hero/intro-pillar.png';
 export default function Hero() {
   return (
     <div id='hero'>

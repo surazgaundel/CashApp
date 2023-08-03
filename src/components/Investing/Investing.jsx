@@ -1,7 +1,13 @@
 import React from 'react'
+import Footer from '../utils/Footer'
 
 export default function Investing() {
   return (
-    <div>Investing</div>
+    <div id='investing'>
+      <div>
+    Invest
+      </div>
+      
+    </div>
   )
 }

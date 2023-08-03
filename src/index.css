@@ -84,14 +84,32 @@ li{
   position: relative;
 }
 
+/* banking styling */
+#banking{
+  background-color: var(--green);
+  height: 100vh;
+  color:var(--white);
+  position: relative;
+  z-index: 10;
+}
+
+/* cashCard styling */
+#cashcard{
+  background-color: #000;
+  height: 100vh;
+  color: var(--green);
+}
 
 
-
-
-
-
-
-
+/* investing styling */
+#investing{
+  background-color:var(--green);
+  background-image: url(/src/assets/Layer1.png);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
 
 
 
