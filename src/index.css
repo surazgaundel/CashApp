@@ -46,6 +46,7 @@
 }
 
 
+
 /* hero section styling */
 
 #hero{
@@ -98,6 +99,8 @@ li{
   background-color: #000;
   height: 100vh;
   color: var(--green);
+  z-index:20;
+  position: relative;
 }
 
 
