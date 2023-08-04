@@ -50,7 +50,7 @@
 /* hero section styling */
 
 #hero{
-  background-image: url(/src/assets/Layer1.png);
+  background-image: url(/src/assets/Hero/Layer1.png);
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -107,11 +107,13 @@ li{
 /* investing styling */
 #investing{
   background-color:var(--green);
-  background-image: url(/src/assets/Layer1.png);
-  object-fit: cover;
+  background-image: url(/src/assets/Hero/Layer1.png),url(/src/assets/Investing/floor.png);
+  object-fit:cover,scale;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center,bottom;
   height: 100vh;
+  color:#000;
+  position: relative;
 }
 
 

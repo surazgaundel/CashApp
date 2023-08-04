@@ -16,9 +16,9 @@ export default function Footer() {
         <div className="w-[50%] flex justify-around items-center">
         <p className="text-[0.625rem] w-[60%] z-10 py-1 text-gray ml-5 font-['Mulish']">Brokerage services by Cash App Investing LLC, member FINRA / SIPC. See our BrokerCheck. Investing involves risk; you may lose money. Bitcoin trading offered by Cash App. Cash App Investing does not trade bitcoin and Cash App is not a member of FINRA or SIPC. Cash App facilitates banking services through Sutton Bank and Lincoln Savings Bank, Members FDIC.</p>
         <div className="flex justify-around w-[20%] items-center text-xl cursor-pointer">
-        <span className="hover:text-green"><BsTwitch/></span>
-        <span className="hover:text-green"><BsTwitter/></span>
-        <span className="hover:text-green"><BsInstagram/></span>
+        <span><BsTwitch/></span>
+        <span><BsTwitter/></span>
+        <span><BsInstagram/></span>
         </div>
         </div>
     </div>
