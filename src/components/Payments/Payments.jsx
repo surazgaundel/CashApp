@@ -9,17 +9,17 @@ import Column2Image from '/src/assets/Payment/payments-column2.png'
 export default function Payments() {
   return (
     <div id='payment'>
-      <div className='flex items-center justify-center h-[85vh] -ml-32'>
-        <section className='flex flex-col w-1/4 items-start -mr-52 z-10'>
-        <h1 className='text-3xl font-bolder tracking-wider'>Payments</h1>
-        <p className="font-['Mulish'] text-black">Send and receive money with anyone, donate  to an important cause, or tip professionals. Just enter a $cashtag, phone number, or scan their  QR code to pay.</p>
+      <div className='flex items-center justify-center h-[85vh]  md:-ml-32 ml-10'>
+        <section className='flex flex-col w-1/4 items-start -mr-32 md:-mr-52 z-10'>
+        <h1 className='text-2xl md:text-3xl font-bolder tracking-wider'>Payments</h1>
+        <p className="font-['Mulish'] text-sm md:text-base text-black">Send and receive money with anyone, donate  to an important cause, or tip professionals. Just enter a $cashtag, phone number, or scan their  QR code to pay.</p>
         </section>
-      <div>
+      <div className="z-10">
         <img src={MobileImage} className="z-10 items-center"  alt='mobile image'/>
       </div>
       </div>
-      <div className=" flex">
-        <img src={BigPillarImage} className='absolute bottom-0' alt='big pillar image'/>
+      <div>
+        <img src={BigPillarImage} className='absolute bottom-0 left-0  h-[40vh] md:h-max z-0' alt='big pillar image'/>
         <img src={SmallPillarImage} className='absolute bottom-16 start-[26%]'alt='small pillar image'/>
         <img src={MediumPillarImage} className='absolute bottom-6 left-72' alt='medium pillar image'/>
         <img src={MediumPillarImage} className='absolute start-[44%] bottom-10 z-10' alt='medium pillar image'/>

@@ -7,7 +7,7 @@ import Investing from './components/Investing/Investing'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>

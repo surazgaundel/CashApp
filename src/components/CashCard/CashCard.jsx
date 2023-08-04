@@ -13,11 +13,11 @@ export default function CashCard() {
     <div id='cashcard'>
     <div className='flex items-center justify-start w-[60%] ml-[10%] h-[100vh]'>
       <section className='flex flex-col w-1/2 items-start z-20'>
-      <h1 className='text-3xl font-bolder tracking-wider'>Cash Card & Boost</h1>
-      <p className="font-['Mulish'] text-white leading-6">The Cash Card is a free, customizable debit card that lets you pay online and in stores. It’s the only way to get Boosts—instant discounts that work at places where you want to spend.</p>
+      <h1 className='text-2xl md:text-3xl font-bolder tracking-wider'>Cash Card & Boost</h1>
+      <p className="font-['Mulish'] text-xs md:text-base text-white leading-6">The Cash Card is a free, customizable debit card that lets you pay online and in stores. It’s the only way to get Boosts—instant discounts that work at places where you want to spend.</p>
       </section>
     <div className="flex items-center justify-center">
-      <img src={BoostPhone} className=" z-20"  alt='boost phone image'/>  
+      <img src={BoostPhone} className="h-[50vh] md:h-full z-20"  alt='boost phone image'/>  
     </div>
     </div>
     <div className=" flex">

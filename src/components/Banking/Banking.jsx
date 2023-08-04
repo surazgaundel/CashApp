@@ -16,8 +16,8 @@ export default function Banking() {
     <div id='banking'>
     <div className='flex items-center justify-start w-[60%] ml-[10%] h-[100vh]'>
       <section className='flex flex-col w-1/2 items-start z-20'>
-      <h1 className='text-3xl font-bolder tracking-wider'>Banking</h1>
-      <p className="font-['Mulish'] text-black  leading-6">Receive your paycheck, tax returns, and other direct deposits up to two days early using your Cash App routing 
+      <h1 className='text-2xl md:text-3xl font-bolder tracking-wider'>Banking</h1>
+      <p className="font-['Mulish'] text-xs md:text-base text-black  leading-6">Receive your paycheck, tax returns, and other direct deposits up to two days early using your Cash App routing 
 and account number.</p>
       </section>
     <div className="flex items-center justify-center">
