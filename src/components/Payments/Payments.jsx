@@ -9,13 +9,13 @@ import Column2Image from '/src/assets/Payment/payments-column2.png'
 export default function Payments() {
   return (
     <div id='payment'>
-      <div className='flex items-center justify-center h-[85vh]'>
-        <section className='flex flex-col w-1/4 items-start -mr-28 '>
+      <div className='flex items-center justify-center h-[85vh] -ml-32'>
+        <section className='flex flex-col w-1/4 items-start -mr-52 z-10'>
         <h1 className='text-3xl font-bolder tracking-wider'>Payments</h1>
         <p className="font-['Mulish'] text-black">Send and receive money with anyone, donate  to an important cause, or tip professionals. Just enter a $cashtag, phone number, or scan their  QR code to pay.</p>
         </section>
-      <div className="flex items-center justify-center -ml-40">
-        <img src={MobileImage}  alt='mobile image'/>
+      <div>
+        <img src={MobileImage} className="z-10 items-center"  alt='mobile image'/>
       </div>
       </div>
       <div className=" flex">

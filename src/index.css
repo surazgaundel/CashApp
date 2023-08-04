@@ -36,8 +36,11 @@
   color-scheme: light dark;
   --white:#fff;
   --green:#00D54B;
+  --lightgray:#B6B6B6;
+  --darkgray:#606060;
+  --black:#000;
   color: var(--white);
-  background-color: #000;
+  background-color: var(--black);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -96,7 +99,7 @@ li{
 
 /* cashCard styling */
 #cashcard{
-  background-color: #000;
+  background-color: var(--black);
   height: 100vh;
   color: var(--green);
   z-index:20;
@@ -112,33 +115,9 @@ li{
   background-repeat: no-repeat;
   background-position: center,bottom;
   height: 100vh;
-  color:#000;
+  color:var(--black);
   position: relative;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -150,4 +129,39 @@ li{
 /* footer */
 #footer{
    height: 10vh;
+}
+
+.hero-footer{ 
+  color:var(--white);
+
+  & button{
+    border:0.1rem solid var(--white);
+    background-color:var(--black);
+  }
+
+  & p{
+    color:var(--lightgray);
+  }
+
+  & div>span{
+    color:var(--white);
+  }
+}
+
+
+.invest-footer{ 
+  color:var(--black);
+
+  & button{
+    border:0.1rem solid var(--black);
+    background-color:var(--white);
+  }
+
+  & p{
+    color:var(--darkgray);
+  }
+
+  & div>span{
+    color:var(--black);
+  }
 }

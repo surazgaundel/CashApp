@@ -8,7 +8,8 @@ export default {
     extend: {
       colors: {
         green:'#00D54B',
-        gray:'#B6B6B6',
+        lightgray:'#B6B6B6',
+        darkgray:'#606060'
       },
       fontWeight: {
         bolder: '800',

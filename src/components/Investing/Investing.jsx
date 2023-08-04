@@ -1,4 +1,4 @@
-import React from 'react'
+import {useEffect,useRef, useState} from 'react'
 import Footer from '../utils/Footer'
 import InvestBitcoin from '/src/assets/Investing/investing-bitcoin.png';
 import InvestGraph1 from '/src/assets/Investing/investing-graph-1.png';
@@ -8,8 +8,16 @@ import InvestStocks from '/src/assets/Investing/investing-stocks.png';
 
 
 export default function Investing() {
+  const investRef = useRef();
+  const[investColor,setInvestColor]=useState('')
+
+  useEffect(() => {
+    const colorInvest=getComputedStyle(investRef.current).backgroundColor; 
+    setInvestColor(colorInvest);
+  }, []);
+
   return (
-    <div id='investing'>
+    <div id='investing' ref={investRef}>
       <h1 className='text-4xl font-bolder text-white tracking-wider text-center w-full mt-5 absolute top-[5%]'>Investing</h1>
       <div className='flex justify-center items-center w-full h-[90vh]'>
         <div className='flex items-center justify-around w-[50%]'>
@@ -36,7 +44,7 @@ export default function Investing() {
       <img src={InvestGraph2} className='absolute right-0 bottom-[35%] z-0'alt='graph2'/>
       <img src={InvestGraph3} className='absolute bottom-[5%] right-0 z-0'  alt='graph3'/>
       </div>
-        <Footer/> 
+        <Footer investColor={investColor}/> 
     </div>
   )
 }

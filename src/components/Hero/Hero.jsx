@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Footer from '../utils/Footer';
 import data from './data.js';
 import Logo from '/src/assets/Logo.svg';
@@ -9,8 +9,20 @@ import IntroStair from '/src/assets/Hero/intro-stairs.png';
 import IntroCubes from '/src/assets/Hero/intro-cubes.png';
 import IntroPillar from '/src/assets/Hero/intro-pillar.png';
 export default function Hero() {
+
+  const heroRef=useRef('');
+  const [heroColor,setHeroColor]=useState('')
+  // const styles=getComputedStyle(style.current).backgroundColor;
+
+  useEffect(() => {
+    const colorHero=getComputedStyle(heroRef.current).backgroundColor; 
+    setHeroColor(colorHero);
+  }, []);
+
+  console.log(heroColor);
+
   return (
-    <div id='hero'>
+    <div id='hero' ref={heroRef}>
       {/* navigation bar */}
         <div className='flex justify-between items-center w-[94%] m-auto'>
           <img src={Logo}  alt='logo'/>
@@ -42,9 +54,7 @@ export default function Hero() {
         </div>
 
         {/* Footer */}
-      <div>
-      <Footer/>
-      </div>
+      <Footer heroColor={heroColor} />
     </div>
   )
 }
