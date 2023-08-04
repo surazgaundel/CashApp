@@ -44,7 +44,9 @@ export default function Investing() {
       <img src={InvestGraph2} className='absolute right-0 bottom-[35%] z-0'alt='graph2'/>
       <img src={InvestGraph3} className='absolute bottom-[5%] right-0 z-0'  alt='graph3'/>
       </div>
-        <Footer investColor={investColor}/> 
+      <div className='invest-footer'>
+        <Footer/> 
+      </div>
     </div>
   )
 }

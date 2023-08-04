@@ -1,34 +1,5 @@
-
-import { useRef,useEffect, useState } from 'react';
 import {BsApple,BsGooglePlay,BsTwitch,BsTwitter,BsInstagram,BsArrowDown} from 'react-icons/bs'
-export default function Footer({heroColor, investColor}) {
-  const footerRef=useRef();
-  const rgbvalue='rgb(0,0,0)'
-
-  function rgbToHex(rgb) {
-    const rgba = rgb.replace(/^rgba?\(|\s+|\)$/g, '').split(',')  ;
-    const hex = `#${((1 << 24) + (parseInt(rgba[0]) << 16) + (parseInt(rgba[1]) << 8) + parseInt(rgba[2])).toString(16).slice(1)}`;
-    return hex;
-  }
-  
-  useEffect(() => {
-    updateFooterClass(heroColor);
-  }, [heroColor]);
-
-  useEffect(() => {
-    updateFooterClass(investColor)
-  }, [investColor]);
-
-  const updateFooterClass = (backgroundColor) => {
-    // Determine the class name based on the background color
-    const className = backgroundColor === 'rgba(0,0,0,0)' ? 'hero-footer' : 'invest-footer';
-    console.log('bg',typeof(backgroundColor));
-    // Update the class name of the footer
-    // footerRef.current.classList.add(className);
-    
-  };
-
-
+export default function Footer() {
 
   return (
     <div id='footer' className={` flex items-center justify-around w-[96%] m-auto`}>
@@ -37,7 +8,7 @@ export default function Footer({heroColor, investColor}) {
             <button className='z-10 rounded-md uppercase font-semibold text-center text-xs p-2 w-[10rem] tracking-wider'><span className='text-green px-1 text-base inline-block'><BsApple/></span>App store</button>
             <button className='z-10 rounded-md uppercase font-semibold text-xs p-2 w-[10rem] tracking-wider'><span className='text-green  px-1 text-base inline-block'><BsGooglePlay/></span>googleplay</button>
             </div>
-            <div className='text-green text-center text-3xl cursor-pointer'>
+            <div className='text-green text-center text-3xl cursor-pointer down-arrow'>
                 <BsArrowDown/>
             </div>
         </div>

@@ -54,7 +54,9 @@ export default function Hero() {
         </div>
 
         {/* Footer */}
-      <Footer heroColor={heroColor} />
+        <div className='hero-footer'>
+        <Footer />
+        </div>
     </div>
   )
 }
