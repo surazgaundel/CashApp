@@ -21,7 +21,7 @@ export default function Banking() {
 and account number.</p>
       </section>
     <div className="flex items-center justify-center">
-      <img src={BankingPhone} className="h-[30vh] md:h-[40vh] z-10"  alt='banking phone image'/>  
+      <img src={BankingPhone} className=" h-[20vh] sm:h-[30vh] md:h-[40vh] z-10"  alt='banking phone image'/>  
     </div>
     </div>
     

@@ -10,12 +10,12 @@ export default function Payments() {
   return (
     <div id='payment'>
       <div className='flex flex-col sm:flex-row  items-center sm:items-center justify-center md:justify-center w-full md:w-[60%] ml-0 sm:ml-[10%] h-[85vh]'>
-        <section className='flex flex-col w-1/2 lg:w-1/3 items-start z-20'>
+        <section className='flex flex-col w-1/2 lg:-mr-24 lg:w-1/3 items-start z-20'>
         <h1 className='text-2xl sm:text-3xl font-bolder tracking-wider'>Payments</h1>
         <p className="font-['Mulish'] text-xs sm:text-base leading-6 text-black">Send and receive money with anyone, donate  to an important cause, or tip professionals. Just enter a $cashtag, phone number, or scan their  QR code to pay.</p>
         </section>
       <div className="z-10 flex items-center justify-center">
-        <img src={MobileImage} className="h-[30vh] md:h-[40vh] lg:h-max z-20"  alt='mobile image'/>
+        <img src={MobileImage} className="h-[20vh] sm:h-[25vh] md:h-[30vh] lg:h-max z-20"  alt='mobile image'/>
       </div>
       </div>
       <div>

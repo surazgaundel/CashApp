@@ -25,14 +25,14 @@ export default function CashCard() {
     <div className="flex">
       <img src={BoostStairs1} className='absolute bottom-0 right-0 lg:h-screen z-0' alt='stairs1'/>
       <img src={BoostStairs2} className='absolute bottom-0 left-0 z-0 h-[20%] md:h-[40%] lg:h-max' alt='stairs2'/>
-      </div>
-      <div className='flex items-center '>
-      <img src={BoostBurger} className=' absolute h-[4%] md:h-[6%] lg:h-max z-10 ' alt='burger'/>
-      <img src={BoostCard} className=' absolute top-0 h-[4%] md:h-[6%] lg:h-max z-10'alt='card'/>
-      <img src={BoostCoffee} className=' absolute top-0 h-[4%] md:h-[6%] lg:h-max z-10'  alt='coffee'/>
-      <img src={BoostHand} className=' absolute top-0 h-[4%] md:h-[6%] lg:h-max z-10' alt='hand'/>
-      <img src={BoostShoe} className='absolute top-0  h-[4%] md:h-[6%] lg:h-max  z-10' alt='shoe'/>
-      </div>
+    </div>
+    <div>
+      <img src={BoostBurger} className='absolute h-[4%] md:h-[6%] lg:h-max z-10 bottom-[15%] right-[5%] md:bottom-[15%] md:right-[95%]  lg:bottom-[35%] lg:right-[25%]' alt='burger'/>
+      <img src={BoostCard} className=' absolute  h-[4%] md:h-[6%] lg:h-max z-10 bottom-[5%] right-[70%] md:right-[10%] md:top-[50%] lg:top-[25%] lg:right-[20%]'alt='card'/>
+      <img src={BoostCoffee} className='absolute h-[4%] md:h-[6%] lg:h-max z-10 bottom-[28%] right-[25%] md:right-[70%] md:bottom-[5%] lg:bottom-[15%] lg:right-[20%]'  alt='coffee'/>
+      <img src={BoostHand} className='absolute  h-[4%] md:h-[6%] lg:h-max z-10 right-[80%] top-[60%] md:top-[90%] md:right-[20%] lg:top-[10%] lg:right-[12%]' alt='hand'/>
+      <img src={BoostShoe} className='absolute  h-[4%] md:h-[6%] lg:h-max z-10 right-[60%] bottom-[80%] md:bottom-[20%] lg:bottom-[35%] lg:right-[1%]' alt='shoe'/>
+    </div>
   </div>
   )
 }
