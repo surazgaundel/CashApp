@@ -21,22 +21,23 @@ export default function Banking() {
 and account number.</p>
       </section>
     <div className="flex items-center justify-center">
-      <img src={BankingPhone} className="h-[40vh] z-10"  alt='banking phone image'/>  
+      <img src={BankingPhone} className="h-[30vh] md:h-[40vh] z-10"  alt='banking phone image'/>  
     </div>
     </div>
+    
     <div className=" flex">
-      <img src={BankingColumn} className='absolute top-[10%] left-[5%] z-10' alt='column'/>
-      <img src={BankingCubes} className='absolute bottom-[10%] end-[25%]'alt='cubes'/>
-      <img src={BankingHole} className='absolute top-0 left-0' alt='hole1'/>
-      <img src={BankingHole} className='absolute -bottom-[17%] right-[15%] z-0' alt='hole2'/>
-      <img src={BankingMonster} className='absolute end-[5%] bottom-[5%] z-10' alt='monster'/>
-      <img src={BankingRamp1} className='absolute top-[35%] right-[25%] z-0' alt='ramp1'/>
-      <img src={BankingRamp2} className='absolute start-[15%] bottom-[5%] z-10' alt='ramp2'/>
-      <img src={BankingStairs1} className='absolute right-[5%] top-[40%] z-0' alt='stairs1'/>
-      <img src={BankingStairs2} className='absolute bottom-[5%] left-[5%] right-0' alt='stairs2'/>
-      <img src={BankingTrack1} className='absolute top-[20%] start-[26%] z-0' alt='track1'/>
-      <img src={BankingTrack2} className='absolute top-[5%] right-[15%] h-1/4 z-0' alt='track2'/>
-      <img src={BankingTube} className='absolute bottom-0 left-[40%] h-[10vh]  z-0' alt='tube'/>
+      <img src={BankingColumn} className='absolute h-[14%] md:h-[18%] lg:h-[20%] top-[10%] left-[5%] z-10' alt='column'/>
+      <img src={BankingCubes} className='absolute h-[14%] md:h-[18%] lg:h-[20%] bottom-[10%] end-[25%]'alt='cubes'/>
+      <img src={BankingHole} className='absolute h-[14%] md:h-[18%] lg:h-[20%] top-0 left-0' alt='hole1'/>
+      <img src={BankingHole} className='absolute h-[14%] md:h-[18%] lg:h-[20%] -bottom-[17%] right-[15%] z-0' alt='hole2'/>
+      <img src={BankingMonster} className='absolute h-[14%] md:h-[18%] lg:h-[20%] end-[5%] bottom-[5%] z-10' alt='monster'/>
+      <img src={BankingRamp1} className='absolute h-[14%] md:h-[18%] lg:h-[20%] top-[35%] right-[25%] z-0' alt='ramp1'/>
+      <img src={BankingRamp2} className='absolute h-[14%] md:h-[18%] lg:h-[20%] start-[15%] bottom-[5%] z-10' alt='ramp2'/>
+      <img src={BankingStairs1} className='absolute h-[14%] md:h-[18%] lg:h-[20%] right-[5%] top-[40%] z-0' alt='stairs1'/>
+      <img src={BankingStairs2} className='absolute h-[14%] md:h-[18%] lg:h-[20%] bottom-[5%] left-[5%] right-0' alt='stairs2'/>
+      <img src={BankingTrack1} className='absolute h-[14%] md:h-[18%] lg:h-[20%] top-[20%] start-[26%] z-0' alt='track1'/>
+      <img src={BankingTrack2} className='absolute h-[14%] md:h-[18%] lg:h-[20%] top-[5%] right-[15%] z-0' alt='track2'/>
+      <img src={BankingTube} className='absolute h-[14%] md:h-[18%] lg:h-[20%] bottom-0 left-[40%]   z-0' alt='tube'/>
     </div>
   </div>
   )

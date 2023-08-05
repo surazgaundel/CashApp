@@ -33,9 +33,9 @@ export default function Investing() {
       </div>
     </div>
     <div className=" flex">
-      <img src={InvestGraph1} className='absolute h-[20%] md:h-max bottom-0 z-0' alt='graph1'/>
-      <img src={InvestGraph2} className='absolute h-[20%] md:h-max right-0 bottom-[35%] z-0'alt='graph2'/>
-      <img src={InvestGraph3} className='absolute h-[20%] md:h-max bottom-[5%] right-0 z-0'  alt='graph3'/>
+      <img src={InvestGraph1} className='absolute h-[16%] sm:h-[20%] md:h-[30%] lg:h-max bottom-0 z-0' alt='graph1'/>
+      <img src={InvestGraph2} className='absolute h-[16%] sm:h-[20%] md:h-[30%] lg:h-max right-0 bottom-[35%] z-0'alt='graph2'/>
+      <img src={InvestGraph3} className='absolute h-[16%] sm:h-[20%] md:h-[30%] lg:h-max bottom-[5%] right-0 z-0'  alt='graph3'/>
       </div>
       <div className='invest-footer'>
         <Footer/> 
